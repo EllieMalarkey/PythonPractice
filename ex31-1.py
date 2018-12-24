@@ -15,8 +15,6 @@ if route == "1":
 
     traffic = raw_input("> ")
 
-    if traffic == "1":
-        print ""
     if traffic == "2":
         print late
     if traffic == "3":
@@ -30,8 +28,6 @@ if route == "2" or traffic == "1":
 
     accident = raw_input("> ")
 
-    if accident == "1":
-        print ""
     if accident == "2":
         print late
     if accident == "3":
