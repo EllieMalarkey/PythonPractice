@@ -32,11 +32,10 @@ if route == "2" or traffic == "1":
         print late
     if accident == "3":
         print sick
-
-if accident == "1":
-    print "Traffic is backed up here too! What do you do?"
-    print "1. Wait it out."
-    print "2. Turn around and go home."
+    else:
+        print "Traffic is backed up here too! What do you do?"
+        print "1. Wait it out."
+        print "2. Turn around and go home."
 
     final = raw_input("> ")
 
